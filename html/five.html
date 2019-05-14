@@ -5,20 +5,108 @@
     </head>
     <body>
         <h1>Forms Page</h1>
+        
         <hr/>
         <form>
-            <div>
-                <label for="fname">FirstName</label>
-                <input type="text" 
-                placeholder="firstname"
-                id="fname"/>
-            </div>
-            <div>
-                <label for="lname">LastName</label>
-                <input type="text"
-                placeholder="lastname" 
-                id="lname"/>
-            </div>
+            <fieldset>
+                <legend>Employe Form</legend>
+                <div>
+                    <label for="fname">Offical ID</label>
+                    <input type="text" 
+                    placeholder="firstname"
+                    value="ATBOI^&V&*TY&446"
+                    id="fname"
+                    readonly
+                    name="firstname"/>
+                </div>
+                <div>
+                    <label for="fname">FirstName*</label>
+                    <input type="text" 
+                    placeholder="firstname"
+                    value="John"
+                    id="fname"
+                    required
+                    name="firstname"/>
+                </div>
+                <div>
+                    <label for="lname">LastName</label>
+                    <input type="text"
+                    placeholder="lastname" 
+                    name="lastName"
+                    id="lname"/>
+                </div>
+                <div>
+                    <label for="mail">Email</label>
+                    <input type="email" placeholder="a@a.com"
+                    id="mail" name="Email"/>
+                </div>
+                <div>
+                    <label for="pwd">Password</label>
+                    <input type="password" placeholder="enter your password"
+                    id="pwd" name="password"/>
+                </div>
+                <div>
+                    <label for="date">Date</label>
+                    <input type="date" placeholder="date"
+                    id="date" name="date"/>
+                </div>
+                <div>
+                    <label for="file">File</label>
+                    <input type="file" placeholder="file"
+                    id="file" name="file"/>
+                </div>
+                <div>
+                    <label for="url">Url</label>
+                    <input type="url" placeholder="url"
+                        id="url" name="url"/>
+                </div>
+                <div>
+                    <label for="color">Color</label>
+                    <input type="color" placeholder="color"
+                    id="color" name="color"/>
+                </div>
+                <div>
+                    <label for="marks">Marks</label>
+                    <input type="number" placeholder="marks"
+                    id="marks" name="marks"/>
+                </div>
+                <div>
+                    <label for="phone">Phone</label>
+                    <input type="text" placeholder="phone"
+                        id="phone" name="phone" maxlength="10"/>
+                </div>
+                <div>
+                    <label for="serc">Search</label>
+                    <input type="search" placeholder="serch your user"
+                    id="serc" name="serc"/>
+                </div>
+                <div>
+                    <label>
+                        <input type="radio" name="gender">Female
+                    </label>
+                    <label>
+                        <input type="radio" name="gender">Male
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox">HTML
+                    </label>
+                    <label>
+                        <input type="checkbox">CSS
+                    </label>
+                    <label>
+                        <input type="checkbox">JAVASCRIPT
+                    </label>
+                </div>
+                <div>
+                    <label for="comment">Comment</label>
+                    <textarea id="comment"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </fieldset>
         </form>
+
     </body>
 </html>
