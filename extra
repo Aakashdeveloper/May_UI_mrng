@@ -15,4 +15,14 @@ git push -u origin master
 /////////
 git add .
 git commit -m "first commit"
-git push -u origin master
+git push
+
+
+
+var a = ["hi","i","am"]
+var output = '';
+for(i=0;i<a.length;i++){
+    index = Math.floor(Math.random() * (2 - 0 + 1)) + 0;
+    output = output+a[index]
+}
+console.log(output)

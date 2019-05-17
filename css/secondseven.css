@@ -1,0 +1,53 @@
+.heading{
+    text-align: center
+}
+.topic{
+    height: 250px;
+    width:300px;
+    border:5px groove teal;
+    float: left;
+    margin-left:20px;
+    overflow: scroll;
+    border-radius:10%;
+    background: thistle;
+    padding:10px;
+    box-shadow: 10px 10px gray
+}
+
+.secondline{
+    margin-top:20px;
+    background:skyblue;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+h2{
+    text-align: center;
+    color:blueviolet
+}
+
+.secondline h2{
+    color:hotpink
+}
+
+.secondline p {
+    color:#fff
+}
+
+.circletag{
+    height: 300px;
+    border-radius: 50%;
+    overflow: scroll;
+}
+
+
+
+
+/*
+solid
+dotted
+dashed
+double
+groove
+*/

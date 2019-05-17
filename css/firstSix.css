@@ -1,0 +1,22 @@
+div{
+    color:tomato;
+    font-size:30px;
+}
+#one{
+    color:springgreen
+}
+#two{
+    font-size:40px;
+}
+#third{
+    font-size:20px;
+    color:violet
+}
+.firstClass{
+    color:#fff;
+    background:#000
+}
+.secondClass{
+    color:#fff;
+    background:royalblue
+}
