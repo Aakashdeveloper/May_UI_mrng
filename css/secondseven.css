@@ -41,6 +41,28 @@ h2{
     overflow: scroll;
 }
 
+body{
+    background-image:radial-gradient(pink,skyblue,slateblue)
+}
+
+@media screen and (min-width:400px){
+   body{
+    background: green
+   } 
+}
+
+@media screen and (min-width:800px){
+    body{
+        background: gray
+       } 
+}
+
+@media screen and (min-width:1000px){
+    body{
+        background-image:radial-gradient(pink,skyblue,slateblue)
+       } 
+}
+
 
 
 

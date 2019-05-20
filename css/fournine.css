@@ -1,0 +1,28 @@
+.bpimage{
+    height:300px;
+    width:200px;
+    margin:2%;
+}
+
+
+#mytext{
+    color: #fff;
+    font-size:20px;
+    visibility: hidden;
+}
+
+.bpimage:hover #mytext{
+    visibility: visible;
+    color:green
+}
+
+.bpimage:hover{
+    /*transform: rotate(10deg)
+    transform: skewX(20deg)*/
+    transform: translate(20px,20px);
+    -ms-transform: translate(20px,20px); /*For IE*/
+    -webkit-transform: translate(20px,20px); /*For Safari*/
+    -moz-transform: translate(20px,20px);/*For Mozila*/
+    -o-transform: translate(20px,20px)/*For opera*/
+
+}

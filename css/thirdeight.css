@@ -1,0 +1,47 @@
+body{
+    /*background-image:linear-gradient(to right,pink,skyblue)*/
+    background-image:radial-gradient(pink,skyblue,slateblue)
+}
+
+li{
+    float: left;
+    padding:10px;
+}
+
+ul{
+    list-style-type: none;
+    padding:10px;
+    margin:10px;
+}
+
+li a{
+    text-decoration: none;
+    font-size:20px;
+    color:#fff
+}
+
+li:hover a{
+    background:gray;
+    border-radius:30%
+}
+
+#second{
+    height: 300px;
+    width:300px;
+    border:2px solid black;
+    float: left;
+}
+
+
+#second:hover{
+    background:hotpink;
+    
+}
+
+#imgdiv{
+    float: left;
+}
+
+#imgdiv:hover{
+    transform: scale(2,1)
+}
