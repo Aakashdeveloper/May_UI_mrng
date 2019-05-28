@@ -125,3 +125,17 @@ var d = "hi "
 undefined
 a+d
 "truehi "
+
+console.log("regerg")
+VM1596:1 regerg
+undefined
+alert("hii")
+undefined
+alert("hii")
+undefined
+confirm("do you like it")
+false
+prompt("Is this ok")
+"yes"
+prompt("Is this ok")
+null

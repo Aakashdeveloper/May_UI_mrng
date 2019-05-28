@@ -1,0 +1,4 @@
+Task1:
+Remove particular charactre and keep rest same.
+exp newyork => remove "y" 
+and output = nework
