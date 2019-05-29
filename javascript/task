@@ -2,3 +2,14 @@ Task1:
 Remove particular charactre and keep rest same.
 exp newyork => remove "y" 
 and output = nework
+
+
+Task2:
+Luck Game
+> You have generate one random number for 3 digit
+> You have take input of 3 digit
+> if user input and random number match than win else loose
+
+Task3:
+(√2 *6)/random*100
+
