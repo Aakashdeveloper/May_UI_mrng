@@ -13,3 +13,12 @@ Luck Game
 Task3:
 (√2 *6)/random*100
 
+
+Task4:
+> Take one array with some username
+    var user = ["john","stephen"]
+> Ask user there name
+> If that user is part of array than console.log("allow access")
+> Else add user to the array and say see you next time
+> Next time if that user try to access you have allow user
+
