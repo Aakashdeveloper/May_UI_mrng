@@ -22,3 +22,8 @@ Task4:
 > Else add user to the array and say see you next time
 > Next time if that user try to access you have allow user
 
+Task5
+> Take one array of City
+> If name start with vowel change city name to all capital
+> else print name
+
