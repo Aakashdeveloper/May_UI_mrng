@@ -27,3 +27,27 @@ Task5
 > If name start with vowel change city name to all capital
 > else print name
 
+
+
+var val = ["john","stephen"]
+var user=document.getElementById("myText").value
+function match(){
+    for(i=0;i<val.length;i++){
+        if(val[i]==user){
+            console.log("Allow Acess")
+        }
+        else
+       {
+            val.push(user)
+             console.log("Added")
+            //doubt var data pushing with iteration how i can stop in 
+            //if condition
+            //document.write("Added");
+            
+       }
+        // else(
+        //     console.log("Nothing is there")
+        // )
+    }
+
+} 
