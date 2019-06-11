@@ -1,0 +1,32 @@
+document.getElementsByTagName
+ƒ getElementsByTagName() { [native code] }
+document.getElementsByTagName('h1')
+HTMLCollection [h1]
+document.getElementsByTagName('h2')
+HTMLCollection [h2]
+document.getElementsByTagName('p')
+HTMLCollection(15) [p, p, p, p, p, p, p, p, p, p, p, p, p, p, p]
+document.getElementsByTagName('h1')[0]
+<h1>​I'm AAKASH HANDA​</h1>​
+document.getElementsByTagName('h1')[0].value 
+undefined
+document.getElementsByTagName('h1')[0].innerText
+"I'm AAKASH HANDA"
+document.getElementsByTagName('h1')[0].innerText="I'm from Naresh IT"
+"I'm from Naresh IT"
+document.getElementsByClassName('title')
+HTMLCollection(4) [h3.title, h3.title, h3.title, h3.title]0: h3.titleaccessKey: ""align: ""assignedSlot: nullattributeStyleMap: StylePropertyMap {size: 0}attributes: NamedNodeMap {0: class, class: class, length: 1}autocapitalize: ""baseURI: "http://aakashhanda.me/"childElementCount: 0childNodes: NodeList [text]children: HTMLCollection []classList: DOMTokenList ["title", value: "title"]className: "title"clientHeight: 72clientLeft: 0clientTop: 0clientWidth: 1140contentEditable: "inherit"dataset: DOMStringMap {}dir: ""draggable: falsefirstChild: textfirstElementChild: nullhidden: falseid: ""innerHTML: "Skills"innerText: "Skills"inputMode: ""isConnected: trueisContentEditable: falselang: ""lastChild: textlastElementChild: nulllocalName: "h3"namespaceURI: "http://www.w3.org/1999/xhtml"nextElementSibling: div.skills-infonextSibling: textnodeName: "H3"nodeType: 1nodeValue: nullnonce: ""offsetHeight: 76offsetLeft: 141offsetParent: bodyoffsetTop: 506offsetWidth: 1140onabort: nullonauxclick: nullonbeforecopy: nullonbeforecut: nullonbeforepaste: nullonblur: nulloncancel: nulloncanplay: nulloncanplaythrough: nullonchange: nullonclick: nullonclose: nulloncontextmenu: nulloncopy: nulloncuechange: nulloncut: nullondblclick: nullondrag: nullondragend: nullondragenter: nullondragleave: nullondragover: nullondragstart: nullondrop: nullondurationchange: nullonemptied: nullonended: nullonerror: nullonfocus: nullonfullscreenchange: nullonfullscreenerror: nullongotpointercapture: nulloninput: nulloninvalid: nullonkeydown: nullonkeypress: nullonkeyup: nullonload: nullonloadeddata: nullonloadedmetadata: nullonloadstart: nullonlostpointercapture: nullonmousedown: nullonmouseenter: nullonmouseleave: nullonmousemove: nullonmouseout: nullonmouseover: nullonmouseup: nullonmousewheel: nullonpaste: nullonpause: nullonplay: nullonplaying: nullonpointercancel: nullonpointerdown: nullonpointerenter: nullonpointerleave: nullonpointermove: nullonpointerout: nullonpointerover: nullonpointerup: nullonprogress: nullonratechange: nullonreset: nullonresize: nullonscroll: nullonsearch: nullonseeked: nullonseeking: nullonselect: nullonselectionchange: nullonselectstart: nullonstalled: nullonsubmit: nullonsuspend: nullontimeupdate: nullontoggle: nullonvolumechange: nullonwaiting: nullonwebkitfullscreenchange: nullonwebkitfullscreenerror: nullonwheel: nullouterHTML: "<h3 class="title">Skills</h3>"outerText: "Skills"ownerDocument: documentparentElement: div.containerparentNode: div.containerpart: DOMTokenList [value: ""]prefix: nullpreviousElementSibling: nullpreviousSibling: textscrollHeight: 72scrollLeft: 0scrollTop: 0scrollWidth: 1140shadowRoot: nullslot: ""spellcheck: truestyle: CSSStyleDeclaration {alignContent: "", alignItems: "", alignSelf: "", alignmentBaseline: "", all: "", …}tabIndex: -1tagName: "H3"textContent: "Skills"title: ""translate: true__proto__: HTMLHeadingElement1: h3.title2: h3.title3: h3.titlelength: 4__proto__: HTMLCollection
+document.getElementsByClassName('title')[0].innerText
+"Skills"
+document.getElementsByClassName('title')[0].innerText = "Tech"
+"Tech"
+document.getElementsByClassName('title')[0].style.color="
+VM526:1 Uncaught SyntaxError: Invalid or unexpected token
+document.getElementsByClassName('title')[0].style.color="red"
+"red"
+document.createElement('h1').innerText="my tag"
+"my tag"
+document.createElement('h1').innerText=document.createElement('h1').innerText="my tag"
+"my tag"
+document.createElement('h1').innnerHTML=document.createElement('h1').innerText="my tag"
+"my tag"
