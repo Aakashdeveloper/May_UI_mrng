@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Blur</title>
+        <script type="text/javascript">
+        const checkmail = () => {
+            var email = document.getElementById('email').value;
+            var cemail = document.getElementById('cemail').value;
+            var outerr;
+            if( email === cemail){
+                outerr = ""
+            } else {
+                outerr="email doesnt match"
+            }
+            document.getElementsByTagName('span')[0].innerText=outerr;
+        }
+        const validateEmail = () => {
+            let vpattern = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+            let vphone = /^([0-9]{10})$/
+            var email = document.getElementById('email').value;
+            var outerr;
+            if(email.match(vpattern)){
+                outerr = ""
+            } else {
+                outerr="Enter valid email"
+            }
+            document.getElementsByTagName('span')[0].innerText=outerr;
+
+        }
+        </script>
+    </head>
+    <body>
+        <label>FirstName*</label>
+        <input type="text" onblur="firstToUpper()" id="fname"/>
+        <p></p>
+        <br/>
+        <label>LastName</label>
+        <input type="text" id="lname"/><br/>
+        <label>Email</label>
+        <input type="text" id="email" onblur="validateEmail()"/><br/>
+        <label>Confirm Email</label>
+        <input type="text" id="cemail" onblur="checkmail()"/><br/>
+        <span style="color:red"></span>
+        
+        <script>
+            const firstToUpper = () => {
+                let inval = document.getElementById('fname').value;
+                if( inval == ""){
+                    document.getElementsByTagName('p')[0].innerText  = "Please enter firstName"
+                } else {
+                    document.getElementById('fname').value = inval.charAt(0).toUpperCase()+ inval.slice(1);
+                    document.getElementsByTagName('p')[0].innerText  = ""
+                }
+            }
+        </script>
+    </body>
+</html>
