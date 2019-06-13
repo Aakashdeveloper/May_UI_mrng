@@ -26,3 +26,11 @@ for(i=0;i<a.length;i++){
     output = output+a[index]
 }
 console.log(output)
+
+// run cmd as admin
+npm i -g @aakashdeveloper/create-node-app
+// mac 
+sudo npm i -g @aakashdeveloper/create-node-app
+
+
+npm i @babel/core @babel/register  @babel/preset-env babel-polyfill

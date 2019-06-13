@@ -1,0 +1,21 @@
+{
+  "name": "es6toes5",
+  "version": "1.0.0",
+  "description": "this is for transpile",
+  "main": "first.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "es5",
+    "es6"
+  ],
+  "author": "nareshit",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "babel-polyfill": "^6.26.0"
+  }
+}
