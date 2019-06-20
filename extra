@@ -34,3 +34,28 @@ sudo npm i -g @aakashdeveloper/create-node-app
 
 
 npm i @babel/core @babel/register  @babel/preset-env babel-polyfill
+
+
+
+/**************
+SETUP ANGULAR 8
+***************/
+npm install -g @angular/cli
+window>
+run cmd as admin
+mac>
+step1 > sudo npm install -g @angular/cli
+step2> Navigate to the folder using cmd
+step3> ng new firstapp
+step4> cd firstapp
+step5> npm start
+
+
+/**************
+SETUP React
+***************/
+step1 > sudo npm install -g create-react-app
+step2> Navigate to the folder using cmd
+step3> create-react-app firstapp
+step4> cd firstapp
+step5> npm start
